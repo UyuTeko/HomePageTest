@@ -6,7 +6,7 @@
   </head>
   <div id="menu-placeholder"></div>
   <script>
-    fetch('https://uyuteko.github.io/HomePageTest/menu.html')
+    fetch('https://uyuteko.github.io/HomePageTest/menu.html?v=999')
     .then(response => response.text())
     .then(data => {
       document.getElementById('menu-placeholder').innerHTML = data;
