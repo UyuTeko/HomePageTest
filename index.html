@@ -6,14 +6,14 @@
   </head>
   <div id="menu-placeholder"></div>
   <script>
-    fetch('/HomePageTest/menu.html')
+    fetch('https://uyuteko.github.io/HomePageTest/menu.html')
     .then(response => response.text())
     .then(data => {
       document.getElementById('menu-placeholder').innerHTML = data;
     });
   </script>
   <body>
-    <h1>うゆてこのホームページ（完全版）</h1>
+    <h1>うゆてこのホームページ（fetch修正版）</h1>
     <p>どうも。うゆてこです</p>
     <p>今回はぼくのつくったゲームを紹介します</p>
     <h2>デデン！</h2>
